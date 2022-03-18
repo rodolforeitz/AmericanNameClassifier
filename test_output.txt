@@ -1,20 +1,3 @@
-# American Name Classifier
-Predicts whether a sentence is an american name or not based on statistics rules created from a database of random names.
-
-# Requirements
-- Python3.6+  
-- names==0.3.0  
-- pandas==1.4.1   
-
-Install: `pip3 install -r requirements.txt`
-
-# Usage
- - To compute perfomance metrics using `test_database.csv`: `python3 main.py`
- - To check whether if arguments are names or not: `python3 main.py "Charlie Chaplin" "The Last Tree"`
-
-## Perfomance Metrics Output
-
-```
 ## Generating a database of random names... ##
 0 of 20000
 ...
@@ -67,4 +50,4 @@ Non Names Accuracy=0.96
 Precision=0.97
 Recall=0.96
 F1=0.96
-```
+
